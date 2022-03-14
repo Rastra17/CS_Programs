@@ -25,10 +25,10 @@ namespace CS_Programs
                     try
                     {
                         Console.Write("Enter first number: ");
-                        first = Convert.ToInt32(Console.ReadLine());
+                        first = Convert.ToDouble(Console.ReadLine());
 
                         Console.Write("Enter second number: ");
-                        second = Convert.ToInt32(Console.ReadLine());
+                        second = Convert.ToDouble(Console.ReadLine());
                     }
                     catch (Exception)
                     {
