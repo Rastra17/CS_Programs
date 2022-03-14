@@ -6,31 +6,37 @@ using System.Threading.Tasks;
 
 namespace CS_Programs
 {
-    class Calculator
+    public class Calculator
     {
-        public double Sum(double first, double second)
+        double first, second;
+        public Calculator(double first, double second)
         {
-            double sum = first + second;
+            this.first = first;
+            this.second = second;
+        }
+        public double Sum()
+        {
+            double sum = this.first + this.second;
             return sum;
         }
-        public double Difference(double first, double second)
+        public double Difference()
         {
-            double diff = first - second;
+            double diff = this.first - this.second;
             return diff;
         }
-        public double Product(double first, double second)
+        public double Product()
         {
-            double product = first * second;
+            double product = this.first * this.second;
             return product;
         }
-        public double Quotient(double first, double second)
+        public double Quotient()
         {
-            double quotient = first / second;
+            double quotient = this.first / this.second;
             return quotient;
         }
-        public double Remainder(double first, double second)
+        public double Remainder()
         {
-            double remains = first % second;
+            double remains = this.first % this.second;
             return remains;
         }
     }
