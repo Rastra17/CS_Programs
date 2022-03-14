@@ -8,7 +8,9 @@ namespace CS_Programs
 {
     public class Calculator
     {
-        double first, second;
+        private readonly double first;
+        private readonly double second;
+
         public Calculator(double first, double second)
         {
             this.first = first;

@@ -9,7 +9,7 @@ namespace CS_Programs
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             double first = 0, second = 0;
 
